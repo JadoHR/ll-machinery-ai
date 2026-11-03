@@ -1,3 +1,3 @@
-# processed
+# 03_Models
 
-Cleaned, model-ready data produced by `01_data_exploration.ipynb`.
+Trained model files (linear_regression.pkl, random_forest.pkl, gradient_boosting.pkl) are saved here by `02_Notebooks/02_price_prediction.ipynb`. Not created yet.
