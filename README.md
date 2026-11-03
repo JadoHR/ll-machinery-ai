@@ -1,3 +1,4 @@
-# 03_Models
+# 04_Evaluation
 
-Trained model files (linear_regression.pkl, random_forest.pkl, gradient_boosting.pkl) are saved here by `02_Notebooks/02_price_prediction.ipynb`. Not created yet.
+`model_comparison.csv` (MAE, RMSE, R2 per model) is written here by `02_Notebooks/02_price_prediction.ipynb`. Not created yet.
+`data_dictionary.csv` (column definitions to share with the company) is created by notebook 00.
