@@ -1,0 +1,1 @@
+order_id,order_date,machine_type,model_series,quantity,n_custom_options,open_orders_at_order_date,planned_lead_time_days,planned_completion_date,actual_completion_date,actual_lead_time_days,snapshot_date,elapsed_days,production_status,data_source
