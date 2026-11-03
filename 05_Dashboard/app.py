@@ -111,9 +111,14 @@ with price_tab:
             submitted = st.form_submit_button("Estimate selling price", type="primary")
         if submitted:
             row = {}
+            numeric_price_fields = {
+                "swing_over_bed_mm", "distance_between_centers_mm",
+                "spindle_bore_mm", "spindle_motor_kw", "chuck_size_inch",
+                "turret_stations", "live_tooling", "bar_feeder", "chip_conveyor"
+            }
             for feature in price_features:
                 value = values.get(feature)
-                if feature == "chuck_size_inch" and value is not None:
+                if feature in numeric_price_fields and value is not None:
                     value = float(value)
                 row[feature] = value
             try:
